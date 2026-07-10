@@ -1,4 +1,4 @@
-15 ms:
+#15 ms:
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         hashset = set()
@@ -7,7 +7,7 @@ class Solution:
                 return True
             hashset.add(num)
         return False
-5 ms:
+#5 ms:
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         unique = set(nums)
