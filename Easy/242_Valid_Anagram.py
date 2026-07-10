@@ -1,4 +1,4 @@
-#11 ms dictionary
+#11ms dictionary
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
@@ -16,7 +16,7 @@ class Solution:
 
         return True
 
-#15 ms arrays
+#15ms arrays
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
@@ -33,3 +33,8 @@ class Solution:
                 return False
 
         return True
+# counter function can also be used to implement this
+''' from collections import Counter
+    class Solution:
+        def isAnagram(self, s: str, t: str) -> bool:
+            return Counter(s) == Counter(t)'''
